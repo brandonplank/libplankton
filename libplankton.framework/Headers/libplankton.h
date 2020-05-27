@@ -51,6 +51,7 @@ bool wk64(uint64_t addr, uint64_t val);
 
 //Plankton functions
 int inittfp0(void);
+int getTfp0(void);
 void initEngine(void);
 void give_info(void);
 void gethexvals(const void* data, size_t size, uint64_t addr);
